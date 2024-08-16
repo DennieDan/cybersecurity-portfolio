@@ -6,10 +6,11 @@
 
 As an enthusiastic entry-level Information Security learner, I am passionate about protecting digital landscapes and simplifying complex cybersecurity concepts for everyone. Proficient in Python and SQL for data analysis and database management, and I have developed a solid foundation in these essential tools for cybersecurity. Eager to continuously learn and grow in the ever-evolving field of cybersecurity, I am committed to staying updated with the latest security trends and technologies. I aim to make sophisticated technological skills and tricks more accessible, ultimately enhancing the quality of life for everyone.
 
-<table>
+<table style="border:0">
     <tbody>
-        <tr>
-            <td rowspan="3" style="width: 30%">Image</td><td></td>
+        <tr style="border: 0px">
+            <td rowspan="3" style="width: 30%">Image</td>
+            <td><h3 style="text-align: center">Showcase</h3></td>
         </tr>
         <tr></tr>
         <tr></tr>
@@ -20,6 +21,24 @@ As an enthusiastic entry-level Information Security learner, I am passionate abo
                     <li><b>LinkedIn: </b><a href="https://www.linkedin.com/in/dandinh-dennie/">Dan Dinh</a></li>
                     <li><b>GitHub: </b><a href="https://github.com/DennieDan">DennieDan</a></li>
                 </ul>
+            </td>
+            <td>
+                <div id="show-1">
+                    <a><u><h4>Google Cybersecurity Certificates</h4></u></a>
+                    <p>about show-1</p>
+                </div>
+                <div id="show-2">
+                    <a><u><h4>Coursework - CS2105 Introduction to Computer Networking</h4></u></a>
+                    <p>about show-2</p>
+                </div>
+                <div id="show-3">
+                    <a><u><h4>Coursework - CS2107 Introduction to Information Security</h4></u></a>
+                    <p>about show-3</p>
+                </div>
+                <div id="show-4">
+                    <a><u><h4>Projects</h4></u></a>
+                    <p>about show-4</p>
+                </div>
             </td>
         </tr>
         <tr></tr>
