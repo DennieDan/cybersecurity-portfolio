@@ -24,7 +24,7 @@ As an enthusiastic entry-level Information Security learner, I am passionate abo
             </td>
             <td>
                 <div id="show-1">
-                    <a><u><h4>Google Cybersecurity Certificates</h4></u></a>
+                    <a href="Pages/GoogleCert.md"><u><h4>Google Cybersecurity Certificates</h4></u></a>
                     <p>about show-1</p>
                 </div>
                 <div id="show-2">
