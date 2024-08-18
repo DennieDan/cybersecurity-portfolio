@@ -8,7 +8,7 @@ As an enthusiastic entry-level Information Security learner, I am passionate abo
 
 <table style="border:0">
     <tbody>
-        <tr style="border: 0px">
+        <tr>
             <td rowspan="3" style="width: 30%">Image</td>
             <td><h3 style="text-align: center">Showcase</h3></td>
         </tr>
