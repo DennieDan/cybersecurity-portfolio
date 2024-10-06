@@ -27,18 +27,6 @@ As an enthusiastic entry-level Information Security learner, I am passionate abo
                     <h4><u><a href="./Pages/GoogleCert.md">Google Cybersecurity Certificates</a></u></h4>
                     <p>about show-1</p>
                 </div>
-                <div id="show-2">
-                    <a><u><h4>Coursework - CS2105 Introduction to Computer Networking</h4></u></a>
-                    <p>about show-2</p>
-                </div>
-                <div id="show-3">
-                    <a><u><h4>Coursework - CS2107 Introduction to Information Security</h4></u></a>
-                    <p>about show-3</p>
-                </div>
-                <div id="show-4">
-                    <a><u><h4>Projects</h4></u></a>
-                    <p>about show-4</p>
-                </div>
             </td>
         </tr>
         <tr></tr>
