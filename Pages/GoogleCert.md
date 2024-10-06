@@ -8,6 +8,7 @@ Google Cybersecurity Certificate
 - [Network Traffic Analysis](#network-traffic-analysis)
 - [Network Attacks Analysis](#network-attacks-analysis)
 - [Apply OS Hardening Tecniques](#apply-os-hardening-techniques)
+- [Analysis of Network Hardening](#analysis-of-network-hardening)
 ## Network Traffic Analysis
 > In this scenario, you are a cybersecurity analyst at a company that provides IT services. Several clients reported that they could not access a specific website and encountered the "destination port unreachable" error. Your task is to analyze the network issue and identify the affected protocol. To begin, you attempt to access the website and experience the same error. To investigate further, you use the network analyzer tool tcpdump while attempting to reload the webpage. The browser sends a DNS query using the UDP protocol to obtain the IP address of the domain. This IP address is then used in an HTTPS request to the web server. However, the network analyzer reveals that when UDP packets are sent to the DNS server, ICMP packets return an error message: "udp port 53 unreachable." Your analysis will focus on understanding the impact of these DNS and ICMP interactions on the network's security and identifying the underlying issue.
 >
@@ -106,7 +107,7 @@ As part of the analysis, the cybersecurity team creates a sandbox environment an
 <br>
 <div style="border:1px solid #ccc; border-radius: 5px; padding: 10px; background-color: aliceblue">
     <b style="color: blue">Section 2: Document the incident</b>
-    <div style="text-align: justify-all; color: black">
+    <div style="text-align: justify-all;">
     <b>Where/when/who discovered/how they detect the incident:</b>
     <p>
 At about 2 PM, multiple customers of the company sent emails saying that their personal computers were slowing down after accessing our main website and being prompted to download a file for free recipes. The website administrator tried to log in the account to check but he lost his credential for that account.
@@ -143,4 +144,45 @@ Currently, there are no prevention measures to protect the system from brute for
 -	Multi-factor authentication with facial recognition and OTP should be applied for significant accounts like admin accounts to ensure the identity of the user who is trying to log in. Threat actors who are trying to log in legally are not able to have the OTP for additional authentication.
 -	The system should be able to alert when the limit number of log in attempts is exceeded, preventing similar brute force attacks in the future.
 </p>
+</div>
+
+## Analysis of Network Hardening
+**Source:** [Google Cybersecurity on Coursera](https://www.coursera.org/learn/networks-and-network-security/quiz/9tlOr/activity-analysis-of-network-hardening/view-attempt
+
+**Activity Overview** (extracted from the [original page](https://www.coursera.org/learn/networks-and-network-security/quiz/9tlOr/activity-analysis-of-network-hardening/view-attempt)))
+
+You are a security analyst working for a social media organization. The organization recently experienced a major data breach, which compromised the safety of their customers’ personal information, such as names and addresses. Your organization wants to implement strong network hardening practices that can be performed consistently to prevent attacks and breaches in the future. 
+
+> **After inspecting the organization’s network, you discover four major vulnerabilities. The four vulnerabilities are as follows:**
+> 
+> + The organization’s employees' share passwords. 
+> + The admin password for the database is set to the default. 
+> + The firewalls do not have rules in place to filter traffic coming in and out of the network. 
+> + Multifactor authentication (MFA) is not used. 
+> + If no action is taken to address these vulnerabilities, the organization is at risk of experiencing another data breach or other attacks in the future. 
+
+<h3 style="color:green">Security Risk assessment Report</h3>
+<div style="border:1px solid #ccc; border-radius: 5px; padding: 10px; background-color: aliceblue; color: black;">
+    <b style="color: blue">Part 1: Select up to three hardening tools and methods to implement</b>
+
+Three hardening tools and methods the organization can use to address the vulnerabilities found include:
+1.	Encrypting sensitive data using latest standards
+2.	Performing firewall maintenance regularly
+3.	Implementing Multifactor authentication (MFA)
+
+Encryption conceals outgoing data and uncovers or decrypts the incoming data.
+
+Firewall maintenance entails checking and updating security configurations regularly to stay ahead of potential threats.
+
+MFA requires users to use more than one way to identify and verify their credentials before accessing an application. Some MFA methods include fingerprint scans, ID cards, pin numbers, and passwords.
+</div>
+<br>
+<div style="border:1px solid #ccc; border-radius: 5px; padding: 10px; background-color: aliceblue; color: black;">
+    <b style="color: blue">Part 2: Explain your recommendations</b>
+
+The first method that should be implemented is the Multifactor authentication (MFA). Currently, employees are illegally sharing passwords with each other. This would have given a chance for non-privileged people to gain access to sensitive data. MFA is a security measure which requires additional verification of the user trying to log in. Only authorized people with specific OTP, fingerprint of facial recognition have login credentials.
+
+Another measure is to do regular firewall maintenance, especially after a data breach. Traffic from sources that are suspicious should be placed on a denied traffic list. Potential threats and firewall rules should be up to date to configure properly on the firewall. Stateful firewall and next-generation firewall (NGFW) should be installed to monitor and filter out any abnormal network traffic. Not only will this prevent illegal access, but it will also protect the network against various DDoS attacks.
+
+Last but not least, any sensitive data such as SPII or PII must be encrypted with advanced algorithm under the latest standards. Only authorized people have the key to decrypt the encrypted data. Therefore, even if the data storage is intruded, the malicious actors still cannot take advantage of it to cause harmful effects on the organization and our customers.
 </div>
