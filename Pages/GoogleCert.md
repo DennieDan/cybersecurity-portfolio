@@ -4,11 +4,17 @@ Google Cybersecurity Certificate
 >🏆 **Certificate Credentials**: [Google Cybersecurity Certificate on Coursera](https://www.coursera.org/account/accomplishments/specialization/6UYSUTT96U9Z)
 > 
 <h2 style="color:blue">Table of Content</h2>
+
 ### List of study cases
+
 - [Network Traffic Analysis](#network-traffic-analysis)
+
 - [Network Attacks Analysis](#network-attacks-analysis)
+
 - [Apply OS Hardening Tecniques](#apply-os-hardening-techniques)
+
 - [Analysis of Network Hardening](#analysis-of-network-hardening)
+
 ## Network Traffic Analysis
 > In this scenario, you are a cybersecurity analyst at a company that provides IT services. Several clients reported that they could not access a specific website and encountered the "destination port unreachable" error. Your task is to analyze the network issue and identify the affected protocol. To begin, you attempt to access the website and experience the same error. To investigate further, you use the network analyzer tool tcpdump while attempting to reload the webpage. The browser sends a DNS query using the UDP protocol to obtain the IP address of the domain. This IP address is then used in an HTTPS request to the web server. However, the network analyzer reveals that when UDP packets are sent to the DNS server, ICMP packets return an error message: "udp port 53 unreachable." Your analysis will focus on understanding the impact of these DNS and ICMP interactions on the network's security and identifying the underlying issue.
 >
