@@ -25,7 +25,7 @@ As an enthusiastic entry-level Information Security learner, I am passionate abo
             <td>
                 <div id="show-1">
                     <h4><u><a href="./Pages/GoogleCert.md">Google Cybersecurity Certificates</a></u></h4>
-                    <p>about show-1</p>
+                    <p style="text-align: justify">This is my first touch with Cybersecurity. During the 3 months working on the lessons and assignments of the course, I gain clearer overview of the field of cybersecurity yet deep enough for me to start to decide which branch I want to dig further.</p>
                 </div>
             </td>
         </tr>
